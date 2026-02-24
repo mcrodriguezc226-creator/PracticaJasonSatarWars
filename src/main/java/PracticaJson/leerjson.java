@@ -1,4 +1,4 @@
-package org.example;
+package PracticaJson;
 
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
@@ -7,7 +7,6 @@ import java.lang.reflect.Type;
 import java.util.List;
 
 public class LectorJSON {
-
     public static List<Personaje> cargarPersonajes(String rutaArchivo) throws Exception {
         Gson gson = new Gson();
         FileReader reader = new FileReader(rutaArchivo);
